@@ -1,0 +1,17 @@
+[0.788s] Invoking command in '/home/aashraey-vaid/mars_rover_ws/build/mars_rover_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/build --no-deps symlink_data
+[1.010s] running develop
+[1.137s] running egg_info
+[1.150s] writing mars_rover_description.egg-info/PKG-INFO
+[1.150s] writing dependency_links to mars_rover_description.egg-info/dependency_links.txt
+[1.150s] writing requirements to mars_rover_description.egg-info/requires.txt
+[1.150s] writing top-level names to mars_rover_description.egg-info/top_level.txt
+[1.175s] reading manifest file 'mars_rover_description.egg-info/SOURCES.txt'
+[1.176s] writing manifest file 'mars_rover_description.egg-info/SOURCES.txt'
+[1.189s] running build_ext
+[1.189s] Creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/lib/python3.12/site-packages/mars-rover-description.egg-link (link to .)
+[1.190s] 
+[1.190s] Installed /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description
+[1.190s] running symlink_data
+[1.190s] creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description/config
+[1.190s] symbolically linking /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/config/controllers.yaml -> /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description/config
+[1.216s] Invoked command in '/home/aashraey-vaid/mars_rover_ws/build/mars_rover_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/build --no-deps symlink_data

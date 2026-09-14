@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating mars_rover_description.egg-info
+writing mars_rover_description.egg-info/PKG-INFO
+writing dependency_links to mars_rover_description.egg-info/dependency_links.txt
+writing requirements to mars_rover_description.egg-info/requires.txt
+writing top-level names to mars_rover_description.egg-info/top_level.txt
+writing manifest file 'mars_rover_description.egg-info/SOURCES.txt'
+reading manifest file 'mars_rover_description.egg-info/SOURCES.txt'
+writing manifest file 'mars_rover_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/lib/python3.12/site-packages/mars-rover-description.egg-link (link to .)
+
+Installed /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description
+running symlink_data
+creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/ament_index
+creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/ament_index/resource_index
+creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/ament_index/resource_index/packages
+symbolically linking /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/resource/mars_rover_description -> /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/ament_index/resource_index/packages
+symbolically linking /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/package.xml -> /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description
+creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description/urdf
+symbolically linking /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/urdf/basic_rover.urdf.xacro -> /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description/urdf
+creating /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description/launch
+symbolically linking /home/aashraey-vaid/mars_rover_ws/build/mars_rover_description/launch/display.launch.py -> /home/aashraey-vaid/mars_rover_ws/install/mars_rover_description/share/mars_rover_description/launch

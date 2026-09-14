@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mars_rover_description/mars_rover_description.egg-info/PKG-INFO
+../../build/mars_rover_description/mars_rover_description.egg-info/SOURCES.txt
+../../build/mars_rover_description/mars_rover_description.egg-info/dependency_links.txt
+../../build/mars_rover_description/mars_rover_description.egg-info/requires.txt
+../../build/mars_rover_description/mars_rover_description.egg-info/top_level.txt
+../../build/mars_rover_description/mars_rover_description.egg-info/zip-safe
+config/controllers.yaml
+launch/display.launch.py
+mars_rover_description/__init__.py
+resource/mars_rover_description
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/basic_rover.urdf.xacro
