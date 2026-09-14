@@ -4,6 +4,20 @@ from glob import glob
 
 package_name = 'mars_rover_description'
 
+
+# Collect all model files while preserving directory structure
+model_files = []
+
+for root, dirs, files in os.walk('models'):
+    if files:
+        model_files.append(
+            (
+                os.path.join('share', package_name, root),
+                [os.path.join(root, f) for f in files]
+            )
+        )
+
+
 setup(
     name=package_name,
     version='0.0.0',
@@ -23,12 +37,6 @@ setup(
             ['package.xml']
         ),
 
-        # Install URDF/Xacro files
-        (
-            os.path.join('share', package_name, 'urdf'),
-            glob('urdf/*')
-        ),
-
         # Install launch files
         (
             os.path.join('share', package_name, 'launch'),
@@ -40,6 +48,9 @@ setup(
             os.path.join('share', package_name, 'config'),
             glob('config/*.yaml')
         ),
+
+        # Install all model files
+        *model_files,
     ],
 
     install_requires=['setuptools'],

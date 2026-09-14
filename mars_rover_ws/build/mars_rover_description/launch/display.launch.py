@@ -1,1 +1,0 @@
-/home/aashraey-vaid/mars_rover_ws/src/mars_rover_description/launch/display.launch.py
