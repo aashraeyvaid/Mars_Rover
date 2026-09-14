@@ -25,8 +25,8 @@ A simulated Mars rover built using **ROS 2 Jazzy** and **Gazebo Sim 8**. The rov
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_NAME>
+git clone https://github.com/aashraeyvaid/Mars_Rover/tree/main.git
+cd Mars_Rover
 ```
 
 Copy the package into your ROS 2 workspace:
@@ -163,7 +163,7 @@ rviz2
 
 In RViz2:
 
-1. Set the appropriate **Fixed Frame**.
+1. Set the **Fixed Frame** -- **basic_rover/lidar_link/lidar_sensor**.
 2. Add a **LaserScan** display.
 3. Set the topic to:
 
